@@ -1,0 +1,43 @@
+v 0.0.1: 
+    - The reserved words for reading and printing of non-alphanumeric data have been added. 
+    - The changelolg for version control has been generated.
+    - To be fixed: conflict of displacement reduction due to the use of else and if with brackets.
+    - The node class for string processing has been added. GIVES SYNTACTIC FAILURE OF UNEXPECTED STATEMENT.
+    - Makefile for the string class done and working.
+
+v 0.0.2:
+    - String reading has been debugged, where it works correctly compared to the previous version.
+    - Virtual functions have been added to evaluate strings in the parent nodes of expressions and variables, 
+      for possible future implementations of string operators (i.e: concatenation).
+    - Print string function implemented, detects type incompatibilities. Request for future debugging
+    - IMPORTANT: Whitespace when typing strings does not work !!
+    - String allocation implemented. Pending intensive testing
+
+v 0.0.3:
+    - Strings assignment with '' created. Whitespace must be fixed with fgets() !!!
+    - While loop implemented and tested
+    - For loop implemented and tested
+    - String assignment with '' fixed via getline. Working
+    - Repeat loop implemented and tested
+
+v 0.0.4:
+    - We have fixed all the structures that use Stmt to allow StmtList
+    - We have added a third parameter to the Handle error function indicating the possible fix
+    - Type_of function implemented and tested
+    - Handle error for strings 
+
+v 0.0.5:
+    - We have continued to implement the SwitchCase. MUST FIX IT.
+
+v 0.0.6:
+    - BoolNode created.
+    - Booleans operator: AND, OR and NOT done.
+    - Clear screen DONE.
+    - GoTo function DONE.
+    - Unary operators increment and decrement fixed and DONE. !!! DELETE gramatic for ExpNode.
+
+v 0.0.7:
+
+v 0.0.8:
+    - Arrays done 
+    
